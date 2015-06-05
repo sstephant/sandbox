@@ -1,0 +1,41 @@
+{
+  "name": "sandbox",
+  "version": "1.0",
+  "authors": [
+    "sylvain <sstephant+github@gmail.com>"
+  ],
+  "description": "sandbox",
+  "moduleType": [],
+  "keywords": [
+    "sandbox", "test"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.*",
+    "jquery": "~1.10",
+    "jqueryui": "~1.10",
+    "angular": "*",
+    "angular-route": "*",
+    "angular-animate": "*",
+    "angular-charts": "*",
+    "angular-bootstrap": "*"
+  },
+  "preen": {
+    "jquery": [
+      "dist/*.*"
+    ],
+    "jqueryui": [
+      "dist/*.*"
+    ],
+    "modernizr": [
+      "modernizr.js"
+    ]
+  }
+}
