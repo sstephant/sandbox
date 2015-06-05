@@ -20,7 +20,7 @@ install:
 before_script:
   - phpenv config-add etc/myconfig.ini
   # start a web server on port 8080, run in the background; wait for initialization
-  - php -S localhost:8000 src/public/index.php &
+  - php -S localhost:8000 -t src/public/ src/public/index.php &
   - until netstat -an 2>/dev/null | grep '8080.*LISTEN'; do true; done
 script:
   - php -v
