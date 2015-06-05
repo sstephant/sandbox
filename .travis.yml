@@ -11,6 +11,7 @@ matrix:
     - php: 
       - hhvm
       - 7.0
+    - php: 7.0
 env:
   - DB=mysql
 before_install:
