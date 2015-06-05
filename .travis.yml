@@ -4,13 +4,26 @@ php:
   - 5.5
   - 5.6
   - 7.0
+  - hhvm
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm  
 env:
   - DB=mysql
-install:
+before_install:
+  - sudo apt-get update > /dev/null  
   - composer self-update
+install:
   - composer install
   - phpenv rehash
 before_script:
-   - phpenv config-add etc/myconfig.ini
-   - php -S localhost:8000 src/public/index.php
+  - phpenv config-add etc/myconfig.ini
+  # start a web server on port 8080, run in the background; wait for initialization
+  - php -S localhost:8000 src/public/index.php &
+  - until netstat -an 2>/dev/null | grep '8080.*LISTEN'; do true; done
+script:
+  - php -v
+  - php -m
+  
 
