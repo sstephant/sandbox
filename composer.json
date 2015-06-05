@@ -1,0 +1,40 @@
+{
+  "name": "sstephant/sandbox",
+  "description": "EDI eLV",
+  "type": "project",
+  "keywords": [
+    "sandbox",
+    "test"
+  ],
+  "authors": [    
+    {
+      "name": "Sylvain STEPHANT",
+      "role": "developper",
+      "email": "sstephant+github@gmail.com",
+      "homepage": "https://fr.linkedin.com/in/sstephant"
+    },    
+  ],
+  "support": {
+    "email": "sstephant+github@gmail.com",
+    "issues": "https://github.com/sstephant/sandbox/issues",
+    "source": "https://github.com/sstephant/sandbox"
+  },
+  "bin-dir": "bin",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "tedivm/jshrink": "~1.0",
+    "phpmd/phpmd": "*",
+    "pdepend/pdepend": "*",
+    "squizlabs/php_codesniffer": "*",
+    "fabpot/php-cs-fixer": "*",
+    "phing/phing": "2.*",
+    "apigen/apigen": "2.8",
+    "phploc/phploc": "*"
+  },
+  "config" : {
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
