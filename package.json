@@ -1,0 +1,42 @@
+{
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "sandbox",
+  "main": "src/index.php",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "mincss": "lessc",
+    "test": "phpunit"
+  },
+  "bugs": {
+    "url": "https://github.com/sstephant/sandbox/issues"
+  },
+  "private": true,
+  "repository": {
+    "type": "svn",
+    "url": "https://github.com/sstephant/sandbox"
+  },
+  "keywords": [
+    "sandbox",
+    "test"
+  ],
+  "author": "Sylvain STEPHANT <sstephant+github@gmail.com> (http://www.linkedin.com/in/sstephant)",
+  "license": "Itnovem",
+  "engines": {
+    "node": ">=0.10",
+    "php": "5.4"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.1",
+    "jQuery-Timepicker-Addon": "*",
+    "selenium-webdriver": "^2.41.0"
+  },
+  "devDependencies" : {
+    "less" : "*",
+    "yuicompressor" : "*",
+    "preen": "*"
+  }
+}
