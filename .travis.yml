@@ -12,5 +12,5 @@ install:
   - phpenv rehash
 before_script:
    - phpenv config-add etc/myconfig.ini
-   - php -S localhost:8000 -t %TRAVIS_BUILD_DIR%/src/public/index.php
+   - php -S localhost:8000 -t src/public/index.php
 
