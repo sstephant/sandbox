@@ -1,6 +1,6 @@
 {
   "name": "sstephant/sandbox",
-  "description": "EDI eLV",
+  "description": "sandbox",
   "type": "project",
   "keywords": [
     "sandbox",
@@ -12,7 +12,7 @@
       "role": "developper",
       "email": "sstephant+github@gmail.com",
       "homepage": "https://fr.linkedin.com/in/sstephant"
-    },    
+    }
   ],
   "support": {
     "email": "sstephant+github@gmail.com",
