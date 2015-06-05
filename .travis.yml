@@ -8,7 +8,9 @@ php:
 matrix:
   fast_finish: true
   allow_failures:
-    - php: hhvm  
+    - php: 
+      - hhvm
+      - 7.0
 env:
   - DB=mysql
 before_install:
