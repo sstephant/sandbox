@@ -13,10 +13,12 @@ matrix:
 env:
   - DB=mysql
 before_install:
-  - sudo apt-get update > /dev/null  
+  - sudo apt-get update
   - composer self-update
 install:
   - composer install
+  - npm install
+  - bower install
   - phpenv rehash
 before_script:
   - phpenv config-add etc/myconfig.ini
