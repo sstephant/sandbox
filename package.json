@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "normalize.css": "^3.0.1",
-    "jQuery-Timepicker-Addon": "*",
     "selenium-webdriver": "^2.41.0"
   },
   "devDependencies" : {
