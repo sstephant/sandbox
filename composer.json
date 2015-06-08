@@ -30,7 +30,7 @@
     "squizlabs/php_codesniffer": "*",
     "fabpot/php-cs-fixer": "*",
     "phing/phing": "2.*",
-    "apigen/apigen": "2.8",
+    "apigen/apigen": "4.*",
     "phploc/phploc": "*",
     "satooshi/php-coveralls": "dev-master",
     "atoum/atoum" : "dev-master"
