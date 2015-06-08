@@ -16,7 +16,8 @@ before_install:
   - sudo apt-get update
   - composer self-update
 install:
-  - composer install
+  - composer install --dev
+  - npm install -g bower
   - npm install
   - bower install
   - phpenv rehash
