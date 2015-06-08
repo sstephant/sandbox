@@ -1,1 +1,1 @@
-# sandbox ![CI status](https://travis-ci.org/sstephant/sandbox.svg?branch=master)
+# sandbox ![CI status](https://travis-ci.org/sstephant/sandbox.svg?branch=master) [![Coverage Status](https://coveralls.io/repos/sstephant/sandbox/badge.svg)](https://coveralls.io/r/sstephant/sandbox)
