@@ -37,6 +37,7 @@
   },
   "config" : {
     "preferred-install": "dist",
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "vendor-dir": "src/vendor"
   }
 }
