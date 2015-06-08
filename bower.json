@@ -19,8 +19,8 @@
   ],
   "dependencies": {
     "modernizr": "~2.*",
-    "jquery": "~1.10",
-    "jqueryui": "~1.10",
+    "jquery": "~2.0",
+    "jqueryui": "~1.11",
     "angular": "*",
     "angular-route": "*",
     "angular-animate": "*",
