@@ -29,5 +29,7 @@ before_script:
 script:
   - php -v
   - php -m
-  
+  - phpunit
+after_script:
+  - php vendor/bin/coveralls -v  
 
