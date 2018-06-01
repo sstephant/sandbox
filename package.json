@@ -31,11 +31,11 @@
   },
   "dependencies": {
     "normalize.css": "^3.0.1",
-    "selenium-webdriver": "^2.41.0"
+    "selenium-webdriver": "^3.0.0"
   },
-  "devDependencies" : {
-    "less" : "*",
-    "yuicompressor" : "*",
+  "devDependencies": {
+    "less": "*",
+    "yuicompressor": "*",
     "preen": "*"
   }
 }
